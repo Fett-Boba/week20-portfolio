@@ -1,20 +1,8 @@
-import React from 'react';
-import Header from './components/Header.js';
-import Nav from './components/Nav.js';
-import Body from './components/Body.js';
-import Footer from './components/Footer.js';
+import React from "react";
+import { } from './App.css';
 
-import List from './components/List.js';
-import skills from './skills';
+import PortfolioContainer from "./components/PortfolioContainer";
 
-export default function App() {
-     return (
-          <div>
-               <Header />
-               <Nav />
-               <Body />
-               <List skills={skills} />
-               <Footer />
-          </div>
-     );
-}
+const App = () => <PortfolioContainer />;
+
+export default App;
