@@ -1,0 +1,16 @@
+.bg-red {
+     background-color: #663322;
+}
+
+.navbar a {
+     color: white;
+}
+
+.navbar a:hover {
+     color: darkgray;
+}
+
+.navbar a:visited {
+     color: white;
+}
+
