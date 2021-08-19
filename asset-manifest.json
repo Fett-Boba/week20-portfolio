@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/week20-portfolio/static/css/main.98c905ce.chunk.css",
-    "main.js": "/week20-portfolio/static/js/main.43cfc795.chunk.js",
-    "main.js.map": "/week20-portfolio/static/js/main.43cfc795.chunk.js.map",
+    "main.css": "/week20-portfolio/static/css/main.338652ad.chunk.css",
+    "main.js": "/week20-portfolio/static/js/main.69b30701.chunk.js",
+    "main.js.map": "/week20-portfolio/static/js/main.69b30701.chunk.js.map",
     "runtime-main.js": "/week20-portfolio/static/js/runtime-main.f60f9a3d.js",
     "runtime-main.js.map": "/week20-portfolio/static/js/runtime-main.f60f9a3d.js.map",
     "static/css/2.da1eef19.chunk.css": "/week20-portfolio/static/css/2.da1eef19.chunk.css",
-    "static/js/2.8141812b.chunk.js": "/week20-portfolio/static/js/2.8141812b.chunk.js",
-    "static/js/2.8141812b.chunk.js.map": "/week20-portfolio/static/js/2.8141812b.chunk.js.map",
+    "static/js/2.be63255e.chunk.js": "/week20-portfolio/static/js/2.be63255e.chunk.js",
+    "static/js/2.be63255e.chunk.js.map": "/week20-portfolio/static/js/2.be63255e.chunk.js.map",
     "index.html": "/week20-portfolio/index.html",
     "static/css/2.da1eef19.chunk.css.map": "/week20-portfolio/static/css/2.da1eef19.chunk.css.map",
-    "static/css/main.98c905ce.chunk.css.map": "/week20-portfolio/static/css/main.98c905ce.chunk.css.map",
-    "static/js/2.8141812b.chunk.js.LICENSE.txt": "/week20-portfolio/static/js/2.8141812b.chunk.js.LICENSE.txt",
+    "static/css/main.338652ad.chunk.css.map": "/week20-portfolio/static/css/main.338652ad.chunk.css.map",
+    "static/js/2.be63255e.chunk.js.LICENSE.txt": "/week20-portfolio/static/js/2.be63255e.chunk.js.LICENSE.txt",
     "static/media/bobaThumbnail75x75.48116736.png": "/week20-portfolio/static/media/bobaThumbnail75x75.48116736.png",
-    "static/media/meDarkYellow.8e4e53ee.png": "/week20-portfolio/static/media/meDarkYellow.8e4e53ee.png"
+    "static/media/meDarkYellow.8e4e53ee.png": "/week20-portfolio/static/media/meDarkYellow.8e4e53ee.png",
+    "static/media/tms150x214.67b3f485.jpg": "/week20-portfolio/static/media/tms150x214.67b3f485.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f60f9a3d.js",
     "static/css/2.da1eef19.chunk.css",
-    "static/js/2.8141812b.chunk.js",
-    "static/css/main.98c905ce.chunk.css",
-    "static/js/main.43cfc795.chunk.js"
+    "static/js/2.be63255e.chunk.js",
+    "static/css/main.338652ad.chunk.css",
+    "static/js/main.69b30701.chunk.js"
   ]
 }
