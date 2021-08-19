@@ -4,10 +4,9 @@ import { } from "./Header.css";
 
 export default function Header({ currentPage, handlePageChange }) {
      return (
-          <header className="row bg-red">
-
-               <nav className="navbar navbar-light bg-red">
-                    <div className="container-fluid">
+          <header className="row">
+               <nav className="navbar">
+                    <div className="container-fluid bg-red">
                          <ul className="navbar-brand">
                               <img src={boba} className="d-inline-block align-text-top" alt="" />
                               <img src={me} className="d-inline-block align-text-top" alt="" />
@@ -28,7 +27,6 @@ export default function Header({ currentPage, handlePageChange }) {
                          </ul>
                     </div>
                </nav>
-
           </header>
      );
 }

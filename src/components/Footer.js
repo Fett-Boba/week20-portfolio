@@ -7,9 +7,9 @@ export default function Footer() {
      const myGit = "https://github.com/Fett-Boba";
      const myLinkedin = "https://www.linkedin.com/in/t-s-683927208/";
      return (
-          <footer className="bg-red icon-size fixed-bottom d-flex justify-content-center">
-               <a className="icon-spacing" target="_blank" href={myGit}><FontAwesomeIcon icon={faGithubSquare} /></a>
-               <a className="icon-spacing" target="_blank" href={myLinkedin}><FontAwesomeIcon icon={faLinkedin} /></a>
+          <footer className="icon-size d-flex justify-content-center bg-red">
+               <a className="icon-spacing bg-red" target="_blank" rel="noreferrer" href={myGit}><FontAwesomeIcon icon={faGithubSquare} /></a>
+               <a className="icon-spacing bg-red" target="_blank" rel="noreferrer" href={myLinkedin}><FontAwesomeIcon icon={faLinkedin} /></a>
           </footer>
      );
 }

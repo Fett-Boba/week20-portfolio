@@ -5,7 +5,7 @@
      color: white;
 }
 .navbar a:hover {
-     color: darkgray;
+     background-color: #587059;
 }
 .navbar a:visited {
      color: white;

@@ -1,12 +1,23 @@
+/*  Global styles */
 * {
      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-     color: #e1bd3e;
+     color: #e1bd3e;     
 }
 html {
      scroll-behavior: smooth;
 }
 
+/*  Bootstrap overrides */
 .active {
      font-weight: bolder;
      text-decoration: underline;
+}
+body {
+     background-color: #587059;
+}
+.bg-green {
+     background-color: #587059;
+}
+.noborder {
+     border: 0px;
 }
