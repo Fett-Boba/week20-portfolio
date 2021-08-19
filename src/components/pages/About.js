@@ -4,7 +4,7 @@ import me from '../../img/tms150x214.jpg';
 
 export default function About() {
      return (
-          <div className="container">
+          <div className="container d-flex justify-content-center">
                <br /><br />
                <div className="text-center">
                     <div className="noborder card mb-3 bg-d-flex justify-content-center bg-green cardwidth">
