@@ -1,12 +1,3 @@
 .bg-red {
      background-color: #663322;
 }
-.navbar a {
-     color: white;
-}
-.navbar a:hover {
-     background-color: #587059;
-}
-.navbar a:visited {
-     color: white;
-}

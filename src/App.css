@@ -21,3 +21,18 @@ body {
 .noborder {
      border: 0px;
 }
+.rounded-corners {
+     border-radius: 25px;
+}
+a {
+     color: white;
+}
+.navbar a {
+     color: white;
+}
+.navbar a:hover {
+     color:darkgray;
+}
+a:hover {
+     color: darkgray;
+}
