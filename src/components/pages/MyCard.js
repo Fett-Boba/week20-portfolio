@@ -21,8 +21,8 @@ export default function MyCard(props) {
                                    <Card.Text>{props.site.myText}</Card.Text>
                                    <Card.Text>
                                         <small>
-                                             URL: <a href={props.site.myUrl}>{props.site.myUrl}</a><br />
-                                             GIT: <a href={props.site.myGit}>{props.site.myGit}</a>
+                                             URL: <a href={props.site.myUrl} target="_blank" rel="noreferrer">{props.site.myUrl}</a><br />
+                                             GIT: <a href={props.site.myGit} target="_blank" rel="noreferrer">{props.site.myGit}</a>
                                         </small>
                                    </Card.Text>
                               </Card.Body>

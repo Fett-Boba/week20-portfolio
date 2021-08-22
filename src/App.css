@@ -23,10 +23,10 @@ body {
      border-radius: 25px;
 }
 a {
-     color: antiquewhite;
+     color: darkgray;
 } 
 a:hover {
-     color: darkgray;
+     color: antiquewhite;
 }
 .nav-link {
      color: #000000;
