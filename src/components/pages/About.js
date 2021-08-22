@@ -1,35 +1,38 @@
 import React from 'react';
 import { } from './About.css';
-import me from '../../img/tms150x214.jpg';
+import imgMe from '../../img/tms150x214.jpg';
+import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default function About() {
      return (
-          <div className="container d-flex justify-content-center">
-               <br /><br />
-               <div className="text-center">
-                    <div className="noborder card mb-3 bg-d-flex justify-content-center bg-green cardwidth">
-                         <div className="row g-0">
-                              <div className="col-md-9">
-                                   <div className="card-body">
-                                        <h3>About Me</h3>
-                                        <p className="card-text">I am an aspiring full stack developer with development
-                                             experience in check image processing, data warehousing, general ledger, and
-                                             posting applications.
-                                        </p>
-                                        <p className="card-text">I'm thrilled to transition from mainframe into the
-                                             full stack web development world. I am currently enrolled in a bootcamp at the
-                                             University of Washington focusing on HTML, CSS, JavaScript, Heroku, React and
-                                             MySQL.
-                                        </p>
-                                   </div>
-                              </div>
-                              <div className="col-md-3">
-                                   <img src={me} className="img-fluid rounded-corners" alt="" />
-                              </div>
-                         </div>
-                    </div>
-               </div>
-               <br /><br />
-          </div>
+          <Container className="d-flex justify-content-center">
+               <Card className="mb-3 bg-dark rounded-corners cardwidth">
+                    <Row className="g-0">
+                         <Col md={9}>
+                              <Card.Body>
+                                   <Card.Title className="font-title">About Me</Card.Title>
+                                   <Card.Text>
+                                        I am an aspiring full stack developer with development
+                                        experience in check image processing, data warehousing, general ledger, and
+                                        posting applications.
+                                   </Card.Text>
+                                   <Card.Text>
+                                        I'm thrilled to transition from mainframe into the
+                                        full stack web development world. I am currently enrolled in a bootcamp at the
+                                        University of Washington focusing on HTML, CSS, JavaScript, React,
+                                        MySQL, Mongo, Apollo, GraphQL, Bootstrap, and more!
+                                   </Card.Text>
+                              </Card.Body>
+                         </Col>
+                         <Col md={3} className="d-flex justify-content-center">
+                              <img src={imgMe} className="img-fluid rounded-corners"
+                                   alt="Tami Shepard Portfolio" />
+                         </Col>
+                    </Row>
+               </Card>
+          </Container>
      );
 }

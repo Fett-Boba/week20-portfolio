@@ -1,5 +1,4 @@
 import React from "react";
-//import { } from "./Portfolio.css";
 import siteData from "../../data/siteData.js";
 import MyCard from "./MyCard";
 

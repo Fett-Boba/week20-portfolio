@@ -31,6 +31,5 @@ export default function PortfolioContainer() {
                {renderPage()}
                <Footer />
           </div>
-
      );
 }

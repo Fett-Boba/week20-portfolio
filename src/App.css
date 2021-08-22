@@ -1,7 +1,9 @@
 /*  Global styles */
 * {
-     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-     color: #e1bd3e;     
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bold;
+     /* color: #e1bd3e;      */
+     color: #b89a30;     
 }
 html {
      scroll-behavior: smooth;
@@ -21,7 +23,7 @@ body {
      border-radius: 25px;
 }
 a {
-     color:#ffffff;
+     color: antiquewhite;
 } 
 a:hover {
      color: darkgray;
@@ -29,9 +31,8 @@ a:hover {
 .nav-link {
      color: #000000;
      font-weight: bold;
-     font-family: fantasy;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      font-size: 20px;
-
 }
 .nav-link:hover {
      color: #000000;
@@ -41,4 +42,7 @@ a:hover {
      color: #000000;
      font-weight: bold;
 }
-
+.card-title {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 30px;
+}
