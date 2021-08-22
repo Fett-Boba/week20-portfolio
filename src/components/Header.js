@@ -13,16 +13,32 @@ export default function Header({ currentPage, handlePageChange }) {
                          </ul>
                          <ul className="nav justify-content-end">
                               <li className="nav-item">
-                                   <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+                                   <a href="#about"
+                                        onClick={() => handlePageChange('About')}
+                                        className={currentPage === 'About' ? 'nav-link active btn btn-warning' : 'nav-link'}>
+                                        About
+                                   </a>
                               </li>
                               <li className="nav-item">
-                                   <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+                                   <a href="#portfolio"
+                                        onClick={() => handlePageChange('Portfolio')}
+                                        className={currentPage === 'Portfolio' ? 'nav-link active btn btn-warning' : 'nav-link'}>
+                                        Portfolio
+                                   </a>
                               </li>
                               <li className="nav-item">
-                                   <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
+                                   <a href="#contact"
+                                        onClick={() => handlePageChange('Contact')}
+                                        className={currentPage === 'Contact' ? 'nav-link active btn btn-warning' : 'nav-link'}>
+                                        Contact
+                                   </a>
                               </li>
                               <li className="nav-item">
-                                   <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
+                                   <a href="#resume"
+                                        onClick={() => handlePageChange('Resume')}
+                                        className={currentPage === 'Resume' ? 'nav-link active btn btn-warning' : 'nav-link'}>
+                                        Resume
+                                   </a>
                               </li>
                          </ul>
                     </div>

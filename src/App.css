@@ -8,10 +8,6 @@ html {
 }
 
 /*  Bootstrap overrides */
-.active {
-     font-weight: bolder;
-     text-decoration: underline;
-}
 body {
      background-color: #587059;
 }
@@ -25,14 +21,24 @@ body {
      border-radius: 25px;
 }
 a {
-     color: white;
-}
-.navbar a {
-     color: white;
-}
-.navbar a:hover {
-     color:darkgray;
-}
+     color:#ffffff;
+} 
 a:hover {
      color: darkgray;
 }
+.nav-link {
+     color: #000000;
+     font-weight: bold;
+     font-family: fantasy;
+     font-size: 20px;
+
+}
+.nav-link:hover {
+     color: #000000;
+     font-weight: bold;
+}
+.nav-link:focus {
+     color: #000000;
+     font-weight: bold;
+}
+
