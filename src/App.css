@@ -1,15 +1,10 @@
-/*  Global styles */
 * {
      font-family: 'Courier New', Courier, monospace;
      font-weight: bold;
-     /* color: #e1bd3e;      */
-     /* color: #b89a30;      */
 }
 html {
      scroll-behavior: smooth;
 }
-
-/*  Bootstrap overrides */
 body {
      background-color: #587059;
 }

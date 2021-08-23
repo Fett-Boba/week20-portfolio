@@ -14,7 +14,6 @@ export default function Resume() {
                     <Col md="auto"></Col>
                     <Col md="auto">
                          <br />
-                         {/* <button className="btn btn-warning" type="button"><a href={resume}>Download Resume</a></button> */}
                          <a type="button" className="btn btn-warning btnstyle" href={resume}>Download Resume</a>
                          <br />
                          <br />
@@ -37,6 +36,11 @@ export default function Resume() {
                                                   <li>Bootstrap</li>
                                                   <li>Materialize</li>
                                                   <li>Handlebars</li>
+                                                  <li>Redux</li>
+                                                  <li>API's</li>
+                                                  <li>JQuery</li>
+                                                  <li>Mobile First Design</li>
+                                                  <li>Progressive Web Apps</li>
                                              </ul>
                                         </Card.Text>
                                    </Card.Body>
