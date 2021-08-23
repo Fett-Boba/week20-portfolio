@@ -4,7 +4,7 @@ import MyCard from "./MyCard";
 
 export default function Portfolio() {
      return (
-          <div>
+          <div className="mycolors">
                {siteData.map((site) => (
                     <MyCard key={site.id} site={site} />
                ))}

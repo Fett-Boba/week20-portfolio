@@ -17,7 +17,7 @@ export default function MyCard(props) {
                          </Col>
                          <Col md={8}>
                               <Card.Body>
-                                   <Card.Title>{props.site.myTitle}</Card.Title>
+                                   <Card.Title className="text-warning">{props.site.myTitle}</Card.Title>
                                    <Card.Text>{props.site.myText}</Card.Text>
                                    <Card.Text>
                                         <small>

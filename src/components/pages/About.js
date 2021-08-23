@@ -8,12 +8,12 @@ import Col from 'react-bootstrap/Col';
 
 export default function About() {
      return (
-          <Container className="d-flex justify-content-center">
+          <Container className="d-flex justify-content-center mycolors">
                <Card className="mb-3 bg-dark rounded-corners cardwidth">
                     <Row className="g-0">
                          <Col md={9}>
                               <Card.Body>
-                                   <Card.Title className="font-title">About Me</Card.Title>
+                                   <Card.Title className="font-title text-warning">About Me</Card.Title>
                                    <Card.Text>
                                         I am an aspiring full stack developer with development
                                         experience in check image processing, data warehousing, general ledger, and
