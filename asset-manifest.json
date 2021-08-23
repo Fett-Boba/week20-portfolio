@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/week20-portfolio/static/css/main.534a2cf6.chunk.css",
-    "main.js": "/week20-portfolio/static/js/main.1be08e60.chunk.js",
-    "main.js.map": "/week20-portfolio/static/js/main.1be08e60.chunk.js.map",
+    "main.css": "/week20-portfolio/static/css/main.b7d89979.chunk.css",
+    "main.js": "/week20-portfolio/static/js/main.d62dea2f.chunk.js",
+    "main.js.map": "/week20-portfolio/static/js/main.d62dea2f.chunk.js.map",
     "runtime-main.js": "/week20-portfolio/static/js/runtime-main.f60f9a3d.js",
     "runtime-main.js.map": "/week20-portfolio/static/js/runtime-main.f60f9a3d.js.map",
     "static/js/2.36d29261.chunk.js": "/week20-portfolio/static/js/2.36d29261.chunk.js",
     "static/js/2.36d29261.chunk.js.map": "/week20-portfolio/static/js/2.36d29261.chunk.js.map",
     "index.html": "/week20-portfolio/index.html",
-    "static/css/main.534a2cf6.chunk.css.map": "/week20-portfolio/static/css/main.534a2cf6.chunk.css.map",
+    "static/css/main.b7d89979.chunk.css.map": "/week20-portfolio/static/css/main.b7d89979.chunk.css.map",
     "static/js/2.36d29261.chunk.js.LICENSE.txt": "/week20-portfolio/static/js/2.36d29261.chunk.js.LICENSE.txt",
     "static/media/artThumbnail.49273467.png": "/week20-portfolio/static/media/artThumbnail.49273467.png",
     "static/media/bobaThumbnail75x75.48116736.png": "/week20-portfolio/static/media/bobaThumbnail75x75.48116736.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.f60f9a3d.js",
     "static/js/2.36d29261.chunk.js",
-    "static/css/main.534a2cf6.chunk.css",
-    "static/js/main.1be08e60.chunk.js"
+    "static/css/main.b7d89979.chunk.css",
+    "static/js/main.d62dea2f.chunk.js"
   ]
 }
