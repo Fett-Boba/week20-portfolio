@@ -3,11 +3,28 @@
 }
 .mycardsize {
      width: 18rem;
-     /* padding-left: 50px;
-     padding-right: 50px; */
 }
 .myspacing {
-     padding: 20px;
-     /* margin: 20px; */
-     
+     padding: 10px;
 }
+.btnstyle {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 20px;
+     font-weight: 500;     
+}
+/* .myalignright {
+     display: inline;
+     text-align: right;
+
+}
+.myaligncenter {
+     display: inline;
+     text-align: center;
+}
+.myalignleft {
+     display: inline;
+     text-align: left;
+}
+.mycontentright {
+     align-content: flex-end;
+} */
