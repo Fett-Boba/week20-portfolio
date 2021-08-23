@@ -7,7 +7,7 @@ import { } from "./MyCard.css";
 
 export default function MyCard(props) {
      return (
-          <Container className="d-flex justify-content-center">
+          <Container className="d-inline-flex justify-content-center">
                <Card className="mb-3 bg-dark rounded-corners cardwidth">
                     <Row className="g-0">
                          <Col md={4}>
