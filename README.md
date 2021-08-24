@@ -1,50 +1,35 @@
 # Week20 React Portfolio
-Week 19 - Online/offline budget tracker
+
+## Link to Portfolio
+
+https://fett-boba.github.io/week20-portfolio/
 
 
 ## Description
 
-This is a budget tracker to log deposits and withdrawals, with or without an internet connection. 
+The final portfolio update showcases several more projects, and is deployed to GitHub pages to make it more widely available. 
 
-Users can:
+- The portfolio is a single page application.
+- The portfolio is implemented with React.
+- The portfolio is deployed to GitHub Pages.
 
-- Install the app to their desktop as a Progressive Web Application.
-- Enter deposits while offline.
-- Enter withdrawals while offline.
-- When a connection becomes available, all offline transactions will be added to the Budget Tracker.
+## Requirements
 
-![Screen capture demonstrating initial install](assets/screenprint.PNG)
+- Page will have a header, content, and footer section
+- Header will contain a navbar with About, Portfolio, Contact, and Resume options
+- Title in the navbar corresponding to the current section will be highlighted.
+- About page will be displayed on initial page load, and will contain a photo, and bio.
+- Portfolio page will display six projects with links to the deployed app as well as the GitHub Repository.
+- Contact page will contain a form with name, email, and message. If form field is not filled out, a message will display indicating the field is reqired.  The email address will also be validated.
+- Resume page will display my proficiencies along with an option to download my resume.
+- Footer will provide icons to my GitHub, LinkedIn, and a third platform.
 
+![Screen capture demonstrating About](assets/img/screen01.PNG)
 
-## Link to Online App
+![Screen capture demonstrating Portfolio](assets/img/screen02.PNG)
 
-https://salty-beach-80384.herokuapp.com/
+![Screen capture demonstrating Contact](assets/img/screen03.PNG)
 
-
-## Install to Desktop
-
-The app can be installed to the desktop by selecting the following in the browser menu bar:
-
-![Screen capture demonstrating initial install](assets/install1.png)
-
-You will be prompted to install the app:
-
-![Screen capture depicting confirmation screen](assets/install2.png)
-
-The following application icon will appear on your desktop:
-
-![Screen capture depicting confirmation screen](assets/install3.png)
-
-
-## Acceptance Criteria
-
-- GIVEN a user is on a Budget App without an internet connection
-- WHEN the user inputs a withdrawal or deposit
-- THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-## Database design
-
-![Screen capture demonstrating database design](assets/budgetDB.png)
-
+![Screen capture demonstrating Resume](assets/img/screen04.PNG)
 
 ---
