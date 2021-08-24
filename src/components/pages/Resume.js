@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import resume from '../../data/tsresume2.pdf'
-import { } from './Resume.css';
+import { } from '../../assets/css/Resume.css';
 
 export default function Resume() {
      return (

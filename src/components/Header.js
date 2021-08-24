@@ -1,6 +1,6 @@
-import boba from "../img/bobaThumbnail75x75.png";
-import me from "../img/meDarkYellow.png";
-import { } from "./Header.css";
+import boba from "../assets/img/bobaThumbnail75x75.png";
+import me from "../assets/img/meDarkYellow.png";
+import { } from "../assets/css/Header.css";
 
 export default function Header({ currentPage, handlePageChange }) {
      return (

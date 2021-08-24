@@ -1,6 +1,6 @@
 import React from 'react';
-import { } from './About.css';
-import imgMe from '../../img/tms150x214.jpg';
+import { } from '../../assets/css/About.css';
+import imgMe from '../../assets/img/tms150x214.jpg';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
@@ -27,12 +27,12 @@ export default function About() {
                                    </Card.Text>
                               </Card.Body>
                          </Col>
-                         <Col md={3} className="d-flex justify-content-center">
+                         <Col md={3}>
                               <img src={imgMe} className="img-fluid rounded-corners"
                                    alt="Tami Shepard Portfolio" />
                          </Col>
                     </Row>
                </Card>
-          </Container>
+          </Container >
      );
 }

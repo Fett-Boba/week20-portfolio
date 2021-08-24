@@ -1,9 +1,9 @@
-import imgBudget from "../img/budgetThumbnail.png";
-import imgWorkout from "../img/workoutThumbnail.png";
-import imgArt from "../img/artThumbnail.png";
-import imgTech from "../img/techThumbnail.png";
-import imgCook from "../img/cooknbrewThumbnail.png";
-import imgWeather from "../img/weatherThumbnail.png";
+import imgBudget from "../assets/img/budgetThumbnail.png";
+import imgWorkout from "../assets/img/workoutThumbnail.png";
+import imgArt from "../assets/img/artThumbnail.png";
+import imgTech from "../assets/img/techThumbnail.png";
+import imgCook from "../assets/img/cooknbrewThumbnail.png";
+import imgWeather from "../assets/img/weatherThumbnail.png";
 
 const siteData = [
      {

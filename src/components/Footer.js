@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faSpotify } from "@fortawesome/free-brands-svg-icons";
-import { } from "./Footer.css";
+import { } from "../assets/css/Footer.css";
 
 export default function Footer() {
      const myGit = "https://github.com/Fett-Boba";
